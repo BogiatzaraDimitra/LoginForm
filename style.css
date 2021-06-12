@@ -1,0 +1,123 @@
+body {
+    background-color: #af5eb8;
+}
+
+.container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    position: relative;
+    width: 30rem;
+    height: auto;
+    background-color: #f9f5fa;
+    margin: 6rem auto;
+    border-radius: 1rem;
+    padding: 0;
+}
+
+.container h1 {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.container p {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+}
+
+form {
+    display: block;
+    position: absolute;
+    margin: 5rem 5rem;
+    width: 20rem;
+    text-align: right;
+}
+
+form a {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.5;
+    font-size: smaller;
+}
+
+form a:hover {
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container input {
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 2rem;
+    color: #000;
+}
+
+input[type="password"], input[type="text"] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #5a4a5a;
+    opacity: 0.5;
+    outline: none;
+    font-size: medium;
+    
+}
+
+input[type="submit"] {
+    border-radius: 2rem;
+    border: none;
+    height: 3rem;
+    color: #f9f5fa;
+    background-color: #602cdb;
+    margin: 2rem auto;
+    padding: 0;
+    font-size: large;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background: #af5eb8;
+}
+
+.signup p {
+    text-align: center;
+    margin-top: 24rem;
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.signup a {
+    text-decoration: none;
+    color: tomato;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+    color: #602cdb;
+}
+
+.social {
+    align-items: center;
+    
+}
+
+.social h2 {
+    text-align: center;
+    opacity: 0.5;
+    font-weight: normal;
+    margin-top: 3rem;
+}
+
+.social p {
+    text-align: center;
+    opacity: 0.5;
+    font-weight: normal;
+}
+
+.social img {
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    margin: 2rem 3rem;
+}
