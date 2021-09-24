@@ -98,7 +98,7 @@ input[type="submit"]:hover {
 }
 
 .social {
-    align-items: center;
+    text-align: center;
     
 }
 
@@ -119,5 +119,5 @@ input[type="submit"]:hover {
     height: 2rem;
     width: 2rem;
     text-align: center;
-    margin: 2rem 3rem;
+    margin: 2rem 2rem;
 }
